@@ -1,0 +1,18 @@
+.pagina-inicio {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pagina-inicio h2 {
+  font-size: 2rem;
+  color: #343a40;
+  margin-bottom: 1rem;
+}
+
+.cursos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-between;
+}

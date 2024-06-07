@@ -1,0 +1,9 @@
+.tablero-profesor {
+  padding: 2rem;
+}
+
+.tablero-profesor h2 {
+  font-size: 2rem;
+  color: #ff6700;
+  margin-bottom: 1rem;
+}

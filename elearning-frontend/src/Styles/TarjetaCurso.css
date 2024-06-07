@@ -1,0 +1,53 @@
+/* src/Styles/TarjetaCurso.css */
+.tarjeta-curso {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.2s;
+  background-color: #fff;
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+}
+
+.tarjeta-curso:hover {
+  transform: translateY(-5px);
+}
+
+.tarjeta-curso img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.tarjeta-curso h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.tarjeta-curso p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.boton-curso {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid #ff6700;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #ff6700;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-curso:hover {
+  background-color: #ff6700;
+  color: #fff;
+}

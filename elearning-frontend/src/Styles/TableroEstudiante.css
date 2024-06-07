@@ -1,0 +1,9 @@
+.tablero-estudiante {
+  padding: 2rem;
+}
+
+.tablero-estudiante h2 {
+  font-size: 2rem;
+  color: #ff6700;
+  margin-bottom: 1rem;
+}
